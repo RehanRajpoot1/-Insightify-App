@@ -29,7 +29,7 @@ services:
       PORT: 4000
       CORS_ORIGIN: http://192.168.2.60:3000
     ports:
-      - '4000:4000'
+      - '4001:4000'
       - '5555:5555'
 
   frontend:
@@ -40,7 +40,7 @@ services:
     environment:
       NEXT_PUBLIC_API_BASE: http://192.168.2.60:4000
     ports:
-      - '3000:3000'
+      - '3001:3000'
 
 volumes:
   roster_pgdata:
