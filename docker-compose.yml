@@ -30,7 +30,7 @@ services:
       CORS_ORIGIN: http://192.168.2.60:3000
     ports:
       - '4001:4000'
-      - '5555:5555'
+      - '5556:5555'
 
   frontend:
     build: ./frontend
